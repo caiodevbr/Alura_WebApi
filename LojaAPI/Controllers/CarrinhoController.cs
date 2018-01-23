@@ -11,13 +11,13 @@ namespace LojaAPI.Controllers
 {
     public class CarrinhoController : ApiController
     {
-        public string GetBuscaCarrinho(long id)
+        public Carrinho GetBuscaCarrinho(long id)
         {
             try
             {
                 CarrinhoDAO dao = new CarrinhoDAO();
                 var carrinho = dao.Busca(id);
-                return carrinho.ToXml();
+                return carrinho;
             }
             catch (Exception ex)
             {
@@ -25,6 +25,13 @@ namespace LojaAPI.Controllers
             }
         }
 
+
+        public string Post([FromBody]Carrinho carrinho)
+        {
+            CarrinhoDAO dao = new CarrinhoDAO();
+            dao.Adiciona(carrinho);
+            return "sucesso!";
+        }
         //public string GetBuscaCarrinho(long id)
         //{
         //    try

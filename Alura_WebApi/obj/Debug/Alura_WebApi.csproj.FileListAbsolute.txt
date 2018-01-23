@@ -1,5 +1,7 @@
 C:\Users\caio.leite\Desktop\Alura_WebApi\Alura_WebApi\bin\Debug\Alura_WebApi.exe.config
 C:\Users\caio.leite\Desktop\Alura_WebApi\Alura_WebApi\bin\Debug\Alura_WebApi.exe
 C:\Users\caio.leite\Desktop\Alura_WebApi\Alura_WebApi\bin\Debug\Alura_WebApi.pdb
+C:\Users\caio.leite\Desktop\Alura_WebApi\Alura_WebApi\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\caio.leite\Desktop\Alura_WebApi\Alura_WebApi\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\caio.leite\Desktop\Alura_WebApi\Alura_WebApi\obj\Debug\Alura_WebApi.exe
 C:\Users\caio.leite\Desktop\Alura_WebApi\Alura_WebApi\obj\Debug\Alura_WebApi.pdb

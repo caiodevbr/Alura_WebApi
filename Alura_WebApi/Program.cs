@@ -12,9 +12,17 @@ namespace Alura_WebApi
     {
         static void Main(string[] args)
         {
+            TestaGet();
+
+        }
+
+        private static void TestaGet()
+        {
             string conteudo;
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.mocky.io/v2/52aaf5deee7ba8c70329fb7d");
+            //HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.mocky.io/v2/52aaf5deee7ba8c70329fb7d");
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://localhost:13435/api/carrinho/1");
             request.Method = "GET";
+            request.Accept = "application/json";
 
             WebResponse response = request.GetResponse();
             using (Stream responseStream = response.GetResponseStream())
@@ -27,7 +35,6 @@ namespace Alura_WebApi
             Console.Write(conteudo);
 
             Console.ReadKey();
-
         }
     }
 }

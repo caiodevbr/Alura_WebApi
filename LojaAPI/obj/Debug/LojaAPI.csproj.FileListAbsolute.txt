@@ -36,6 +36,5 @@ C:\Users\caio.leite\Desktop\Alura_WebApi\LojaAPI\bin\Newtonsoft.Json.xml
 C:\Users\caio.leite\Desktop\Alura_WebApi\LojaAPI\bin\System.Net.Http.Formatting.xml
 C:\Users\caio.leite\Desktop\Alura_WebApi\LojaAPI\bin\System.Web.Http.xml
 C:\Users\caio.leite\Desktop\Alura_WebApi\LojaAPI\bin\System.Web.Http.WebHost.xml
-C:\Users\caio.leite\Desktop\Alura_WebApi\LojaAPI\obj\Debug\LojaAPI.csprojResolveAssemblyReference.cache
 C:\Users\caio.leite\Desktop\Alura_WebApi\LojaAPI\obj\Debug\LojaAPI.dll
 C:\Users\caio.leite\Desktop\Alura_WebApi\LojaAPI\obj\Debug\LojaAPI.pdb
