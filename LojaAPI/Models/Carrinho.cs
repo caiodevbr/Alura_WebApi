@@ -51,5 +51,11 @@ namespace LojaAPI.Models
         {
             this.Endereco = endereco;
         }
+        public void TrocaQuantidade(Produto produto)
+        {
+            Produto produtoCarregado = Produtos.FirstOrDefault(p => p.Id == produto.Id);
+
+            produtoCarregado.Quantidade = produto.Quantidade;
+        }
     }
 }
